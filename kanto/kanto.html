@@ -1,0 +1,46 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Watch and Download Pokemon kanto region all episodes in hindi | Toonsplay.com</title>
+    <link rel="stylesheet" href="kanto.css">
+</head>
+
+<body>
+    <header>
+        <a href="#" class="logo"><img src="logo.png" alt=""></a>
+        <div class="toggle"><a href="../../index.html"><img src="../toggle.png" alt=""></a></div>
+    </header>
+    <div class="banner">
+        <div class="content">
+            <h2><span>Pokemon Kanto all episodes in hindi</span></h2>
+            <p>
+                Pokémon: Indigo League
+                It’s Ash Ketchum’s tenth birthday, and he’s ready to do what many 10-year-olds in the Kanto region set
+                out to do—become a Pokémon Trainer! Things don’t go exactly the way he planned when he ends up with a
+                Pikachu instead of a standard first Pokémon, and winning Gym Badges turns out to be much tougher than he
+                thought. Luckily he’s got former Gym Leaders Brock and Misty at his side, along with a bevy of new
+                Pokémon friends, including Bulbasaur, Squirtle, and Charmander.
+            </p>
+            <a href="#" class="play" onclick="toggle();"><img src="../play.png" alt="">watch now</a>
+        </div>
+    </div>
+    <div class="trailer">
+        <video src="../../pokemon/video/How to become an Android developer _ Complete Roadmap_HD.mp4" controls="true"></video>
+        <img src="../close.png" alt="" class="close" onclick="toggle();">
+    </div>
+    <script>
+        function toggle() {
+            var trailer = document.querySelector('.trailer');
+            let video = document.querySelector('video');
+            trailer.classList.toggle('active');
+            video.currentTime = 0;
+            video.pause();
+
+        }
+    </script>
+</body>
+
+</html>
